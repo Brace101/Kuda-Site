@@ -370,3 +370,280 @@ body {
 }
 
 
+/* =========================
+   TABLET SCREEN
+========================= */
+@media (max-width: 1024px) {
+  .header {
+    padding: 0 40px;
+    gap: 30px;
+  }
+
+  .nav {
+    gap: 25px;
+  }
+
+  .section-one-large {
+    height: auto;
+    padding: 50px 30px;
+  }
+
+  .section-one-left,
+  .section-one-right {
+    width: 50%;
+    height: auto;
+  }
+
+  .section-one-left-content {
+    margin-top: 80px;
+    font-size: 24px;
+  }
+
+  .section-one-left-content-two {
+    font-size: 18px;
+  }
+
+  .hero-image {
+    width: 420px;
+    height: 420px;
+  }
+
+  .circle {
+    width: 430px;
+    height: 430px;
+  }
+
+  .phone {
+    width: 300px;
+    left: 70px;
+  }
+
+  .big-container1,
+  .big-container2 {
+    width: 90%;
+  }
+
+  .container1,
+  .container2,
+  .container3,
+  .container4,
+  .container5 {
+    width: 300px;
+  }
+
+  .section-your-phone-our-app {
+    height: auto;
+    padding: 50px 30px;
+  }
+
+  .left-box,
+  .right-box {
+    width: 45%;
+    height: auto;
+  }
+
+  .girl img {
+    width: 100%;
+  }
+}
+
+
+/* =========================
+   MOBILE SCREEN
+========================= */
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .signinandjoin {
+    gap: 15px;
+  }
+
+  .join {
+    padding: 12px 20px;
+  }
+
+  .section-one-large {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .section-one-left,
+  .section-one-right {
+    width: 100%;
+    height: auto;
+  }
+
+  .section-one-left-content {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+
+  .section-one-left-content-two {
+    font-size: 18px;
+  }
+
+  .download-buttons,
+  .promo-footer {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-image {
+    width: 320px;
+    height: 320px;
+    margin-top: 40px;
+  }
+
+  .circle {
+    width: 330px;
+    height: 330px;
+    left: 0;
+    top: 0;
+  }
+
+  .phone {
+    width: 230px;
+    left: 50px;
+    top: 10px;
+  }
+
+  .section-two {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .big-container1,
+  .big-container2 {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .container1,
+  .container2,
+  .container3,
+  .container4,
+  .container5 {
+    width: 100%;
+  }
+
+  .section-your-phone-our-app {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    background-color: white;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+  }
+
+  .left-box-content,
+  .left-box-content-two {
+    align-items: center;
+  }
+
+  .account-arrow {
+    margin-bottom: 20px;
+  }
+
+  .girl img {
+    width: 100%;
+  }
+}
+
+
+/* =========================
+   SMALL MOBILE SCREEN
+========================= */
+@media (max-width: 480px) {
+  .logo img {
+    width: 90px;
+  }
+
+  .nav a {
+    font-size: 12px;
+  }
+
+  .signin {
+    font-size: 12px;
+  }
+
+  .join {
+    font-size: 11px;
+    padding: 10px 16px;
+  }
+
+  .Niglogo {
+    width: 25px;
+    height: 25px;
+  }
+
+  .section-one-left-content {
+    font-size: 20px;
+  }
+
+  .section-one-left-content-two {
+    font-size: 15px;
+  }
+
+  .Appstore,
+  .Googleplay {
+    width: 130px;
+  }
+
+  .hero-image {
+    width: 260px;
+    height: 260px;
+  }
+
+  .circle {
+    width: 270px;
+    height: 270px;
+  }
+
+  .phone {
+    width: 190px;
+    left: 40px;
+  }
+
+  .text,
+  .text-two,
+  .text-three,
+  .text-four,
+  .text-five {
+    font-size: 18px;
+  }
+
+  .left-box-content {
+    font-size: 17px;
+  }
+
+  .left-box-content-two {
+    font-size: 15px;
+  }
+
+  .account-opening {
+    font-size: 18px;
+  }
+}
