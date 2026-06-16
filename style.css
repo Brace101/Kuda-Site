@@ -302,8 +302,8 @@ body {
 
 .section-your-phone-our-app{
     width: 100%;
-    height: 600px;
-    background-color:pink;
+    height: 400px;
+    background-color:white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,15 +311,15 @@ body {
 
 .left-box{
     width: 30%;
-    height: 600px;
+    height: 400px;
     background-color: white;
     
 }
 
 .right-box{
     width: 30%;
-    height: 600px;
-    background-color: yellow;
+    height: 400px;
+    background-color: white;
     
 
 }
@@ -330,10 +330,11 @@ body {
     color: #40196d;
     font-weight: bold;
     margin-top: 20px;
-    line-height: normal;
+    line-height: 50px;
     display: flex;
     flex-direction: column;
     font-family: "Averta", sans-serif;
+  
 }
 
 .left-box-content-two{
@@ -354,7 +355,7 @@ body {
     font-weight: bold;
     text-decoration: underline;
     margin-top: 20px;
-    font-family: "Averta", sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -364,10 +365,38 @@ body {
 }
 
 .girl{
-    padding-left: -25px;
+    
+  position: relative;
+  top: 50px;
+  left: 60px;
     
 
 }
+
+.manage-box {
+
+  width: 100%;
+  height: 300px;
+  background-color: green;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* =========================
