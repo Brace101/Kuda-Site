@@ -17,6 +17,11 @@ body {
   padding: 0 270px;
   gap: 70px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+   position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
 }
 
 .logo img {
@@ -56,10 +61,16 @@ body {
 }
 
 .signin {
+
   text-decoration: none;
   color: #40196d;
   font-size: 14px;
   font-weight: 600;
+  cursor: pointer;
+  border-color: white;
+  background-color: white;
+  font-family: 'Muli', sans-serif;
+
 }
 
 .join {
@@ -71,6 +82,9 @@ body {
   font-weight: 600;
   font-size: 12px;
   font-style: none;
+  cursor: pointer;
+  border-color: none;
+  font-family: 'Muli', sans-serif;
 }
 
 .Niglogo{
@@ -155,7 +169,8 @@ body {
 
 
 .section-one-left-content {
-    font-family: "Averta", sans-serif;
+
+    font-family: 'Muli', sans-serif;
     color: #40196d;
     font-size: 27px;
     font-weight: bold;
@@ -181,11 +196,13 @@ body {
 .Appstore{
     width: 150px;
     height: 50px;
+    cursor: pointer;
 }
 
 .Googleplay{
     width: 150px;
     height: 50px;
+    cursor: pointer;
 }
 
 .section-one-right-content{
@@ -208,6 +225,7 @@ body {
     gap: 8px;
     font-size: 12px;
     color: #888;
+    font-family: 'Muli', sans-serif;
     
     
 }
@@ -244,9 +262,6 @@ body {
     gap: 5px;
     width: 70%;
    
-
-
-
 }
 
 .big-container2{
@@ -266,15 +281,12 @@ body {
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgb(246, 240, 240);
 
-    
-
 }
 
 .order-image1, .order-image2, .order-image3, .order-image4, .order-image5{
     
     width: 100%;
     padding: 5%;
-
 
 }
 
@@ -285,13 +297,10 @@ body {
     font-size: 25px;
     color: #40196d;
     font-weight: bold;
-    font-family: Arial, sans-serif; 
+    font-family: 'Muli', sans-serif;
    
-    
-
 
 }
-
 
 
 .emptySpaceTwo{
@@ -300,7 +309,8 @@ body {
  
 }
 
-.section-your-phone-our-app{
+.section-your-phone-our-app {
+
     width: 100%;
     height: 400px;
     background-color:white;
@@ -310,14 +320,14 @@ body {
 }
 
 .left-box{
-    width: 30%;
+    width: 35%;
     height: 400px;
     background-color: white;
     
 }
 
 .right-box{
-    width: 30%;
+    width: 35%;
     height: 400px;
     background-color: white;
     
@@ -326,26 +336,27 @@ body {
 
 
 .left-box-content{
-    font-size: 20px;
+    font-size: 25px;
     color: #40196d;
     font-weight: bold;
     margin-top: 20px;
     line-height: 50px;
     display: flex;
     flex-direction: column;
-    font-family: "Averta", sans-serif;
+    font-family: 'Muli', sans-serif;
   
 }
 
-.left-box-content-two{
+.left-box-content-two {
+
     font-size: 20px;
     color: black;
     font-weight: bold;
     margin-top: 20px;
-    line-height: normal;
+    line-height: 20px;
     display: flex;
     flex-direction: column;
-    font-family: "Averta", sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 .account-opening{
@@ -355,7 +366,7 @@ body {
     font-weight: bold;
     text-decoration: underline;
     margin-top: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Muli', sans-serif;
 
 }
 
@@ -370,309 +381,484 @@ body {
   top: 50px;
   left: 60px;
     
+}
+
+.empty-cont {
+
+  width: 100%;
+  height: 100px;
+  background-color: white;
+
 
 }
+
 
 .manage-box {
 
   width: 100%;
-  height: 300px;
-  background-color: green;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
 
+}
+
+.left-cup {
+
+  width: 35%;
+  height: 400px;
+  background-color: white;
+  padding-top: 60px;
+  padding-left: 120px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.left-cup img {
+
+  width: 400px;
 }
 
 
 
+.right-cup {
 
+  width: 35%;
+  height: 400px;
+  background-color: white;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =========================
-   TABLET SCREEN
-========================= */
-@media (max-width: 1024px) {
-  .header {
-    padding: 0 40px;
-    gap: 30px;
-  }
-
-  .nav {
-    gap: 25px;
-  }
-
-  .section-one-large {
-    height: auto;
-    padding: 50px 30px;
-  }
-
-  .section-one-left,
-  .section-one-right {
-    width: 50%;
-    height: auto;
-  }
-
-  .section-one-left-content {
-    margin-top: 80px;
-    font-size: 24px;
-  }
-
-  .section-one-left-content-two {
-    font-size: 18px;
-  }
-
-  .hero-image {
-    width: 420px;
-    height: 420px;
-  }
-
-  .circle {
-    width: 430px;
-    height: 430px;
-  }
-
-  .phone {
-    width: 300px;
-    left: 70px;
-  }
-
-  .big-container1,
-  .big-container2 {
-    width: 90%;
-  }
-
-  .container1,
-  .container2,
-  .container3,
-  .container4,
-  .container5 {
-    width: 300px;
-  }
-
-  .section-your-phone-our-app {
-    height: auto;
-    padding: 50px 30px;
-  }
-
-  .left-box,
-  .right-box {
-    width: 45%;
-    height: auto;
-  }
-
-  .girl img {
-    width: 100%;
-  }
 }
 
+.right-cup h1 {
 
-/* =========================
-   MOBILE SCREEN
-========================= */
-@media (max-width: 768px) {
-  .header {
-    height: auto;
-    padding: 20px;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-  }
+  font-size: 40px;
+  color: #40196d;
+  line-height: 45px;
+  position: relative;
+  top: 70px;
+  font-family: 'Muli', sans-serif;
+ 
 
-  .nav {
-    order: 3;
-    width: 100%;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .signinandjoin {
-    gap: 15px;
-  }
-
-  .join {
-    padding: 12px 20px;
-  }
-
-  .section-one-large {
-    flex-direction: column;
-    height: auto;
-    text-align: center;
-    padding: 30px 20px;
-  }
-
-  .section-one-left,
-  .section-one-right {
-    width: 100%;
-    height: auto;
-  }
-
-  .section-one-left-content {
-    margin-top: 30px;
-    font-size: 24px;
-  }
-
-  .section-one-left-content-two {
-    font-size: 18px;
-  }
-
-  .download-buttons,
-  .promo-footer {
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
-  .hero-image {
-    width: 320px;
-    height: 320px;
-    margin-top: 40px;
-  }
-
-  .circle {
-    width: 330px;
-    height: 330px;
-    left: 0;
-    top: 0;
-  }
-
-  .phone {
-    width: 230px;
-    left: 50px;
-    top: 10px;
-  }
-
-  .section-two {
-    height: auto;
-    padding: 40px 20px;
-  }
-
-  .big-container1,
-  .big-container2 {
-    flex-direction: column;
-    width: 100%;
-    gap: 20px;
-  }
-
-  .container1,
-  .container2,
-  .container3,
-  .container4,
-  .container5 {
-    width: 100%;
-  }
-
-  .section-your-phone-our-app {
-    flex-direction: column;
-    height: auto;
-    padding: 40px 20px;
-    background-color: white;
-  }
-
-  .left-box,
-  .right-box {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    background-color: white;
-  }
-
-  .left-box-content,
-  .left-box-content-two {
-    align-items: center;
-  }
-
-  .account-arrow {
-    margin-bottom: 20px;
-  }
-
-  .girl img {
-    width: 100%;
-  }
 }
 
+.right-cup h6 {
 
-/* =========================
-   SMALL MOBILE SCREEN
-========================= */
-@media (max-width: 480px) {
-  .logo img {
-    width: 90px;
-  }
+  font-size: 15px;
+  color: black;
+  line-height: 25px;
+  position: relative;
+  top: 100px;
+  font-family: 'Muli', sans-serif;
+  
+}
 
-  .nav a {
-    font-size: 12px;
-  }
+.empty-box-two {
 
-  .signin {
-    font-size: 12px;
-  }
+  width: 100%;
+  height: 100px;
+  background-color: white;
 
-  .join {
-    font-size: 11px;
-    padding: 10px 16px;
-  }
+}
 
-  .Niglogo {
-    width: 25px;
-    height: 25px;
-  }
+.spend-and-save-box {
 
-  .section-one-left-content {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+} 
+
+.left-one {
+
+  width: 35%;
+  height: 400px;
+  background-color: white;
+
+} 
+
+.right-one {
+
+  width: 35%;
+  height: 400px;
+  background-color: white;
+
+
+} 
+
+.left-one h1 {
+
+  font-size: 40px;
+  color: #40196d;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  position: relative;
+  top: 50px;
+  font-family: 'Muli', sans-serif;
+}
+
+.left-one h6 {
+
+  font-size: 15px;
+  color: black;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  line-height: 25px; 
+  position: relative;
+  top: 70px;
+  font-family: 'Muli', sans-serif;
+  
+}
+
+  .left-one h5 {
+
     font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #40196d;
+    position: relative;
+    top: 110px;
+    text-decoration: underline;
+    font-family: 'Muli', sans-serif;
+
   }
 
-  .section-one-left-content-two {
-    font-size: 15px;
-  }
 
-  .Appstore,
-  .Googleplay {
-    width: 130px;
-  }
+.right-one img {
 
-  .hero-image {
-    width: 260px;
-    height: 260px;
-  }
+  width: 400px;
+  position: relative;
+  left: 120px;
 
-  .circle {
-    width: 270px;
-    height: 270px;
-  }
-
-  .phone {
-    width: 190px;
-    left: 40px;
-  }
-
-  .text,
-  .text-two,
-  .text-three,
-  .text-four,
-  .text-five {
-    font-size: 18px;
-  }
-
-  .left-box-content {
-    font-size: 17px;
-  }
-
-  .left-box-content-two {
-    font-size: 15px;
-  }
-
-  .account-opening {
-    font-size: 18px;
-  }
 }
+
+.empty-box-three {
+
+  width: 100%;
+  height: 100px;
+  background-color: white;
+
+}
+
+.block-card-box {
+
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.left-angle {
+
+  width: 35%;
+  height: 500px;
+  background-color: white;
+  
+}
+
+.right-angle {
+
+  width: 35%;
+  height: 500px;
+  background-color: white;
+
+}
+
+.left-angle img {
+
+  width: 600px;
+  position: relative;
+  
+}
+
+.right-angle h1 {
+
+  font-size: 40px;
+  color: #40196d;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  position: relative;
+  top: 120px;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.right-angle h6 {
+
+  font-size: 15px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  position: relative;
+  top: 130px;
+  line-height: 25px;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.right-angle h5 {
+
+  font-size: 15px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  position: relative;
+  top: 160px;
+  text-decoration: underline;
+  color: #40196d;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.empty-box-four {
+
+  width: 100%;
+  height: 150px;
+  background-color: white;
+
+}
+
+.hello-box {
+
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.left-array {
+
+  width: 35%;
+  height: 500px;
+  background-color: white;
+
+
+}
+
+.right-array {
+
+  width: 35%;
+  height: 500px;
+  background-color: white;
+  
+
+}
+
+.left-array h1 {
+
+  font-size: 40px;
+  color: #40196d;
+  display: flex;
+  justify-content: left;
+  position: relative;
+  top: 70px;
+  font-family: 'Muli', sans-serif;
+  
+}
+
+.left-array h6 {
+
+  font-size: 15px;
+  display: flex;
+  justify-content: left;
+  position: relative;
+  top: 100px;
+  color: black;
+  line-height: 20px;
+  font-family: 'Muli', sans-serif;
+}
+
+.left-array h5 {
+
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+  position: relative;
+  top: 130px;
+  color: #40196d;
+  text-decoration: underline;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.right-array img {
+
+  width: 500px;
+  margin-top: 60px;
+
+}
+
+.fee-box {
+
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.left-column {
+
+  width: 35%;
+  height: 500px;
+  background-color: white;
+
+}
+
+.right-column {
+
+  width: 35%;
+  height: 500px;
+  background-color: white;
+
+}
+
+.left-column img {
+
+  width: 450px;
+  position: relative;
+  top: 20px;
+  left: 50px;
+
+}
+
+.right-column h1 {
+
+  font-size: 40px;
+  color: #40196d;
+  position: relative;
+  top: 150px;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.right-column h6 {
+
+  font-size: 15px;
+  color: black;
+  position: relative;
+  top: 170px;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.right-column h5 {
+
+  font-size: 20px;
+  color: #40196d;
+  text-decoration: underline;
+  position: relative;
+  top: 190px;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.promise-box {
+
+  width: 100%;
+  height: 220px;
+  background-color: white;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  padding-top: 110px;
+  color: #40196d;
+  font-family: 'Muli', sans-serif;
+
+}
+
+.sliding-page {
+
+  width: 100%;
+  height: 400px;
+  background-color: pink;
+
+}
+
+.partners-page {
+
+  width: 100%;
+  height: 200px;
+  background-color: whitesmoke;
+
+}
+
+.partners-page h3 {
+
+  font-size: 40px;
+  color: #40196d;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+
+}
+
+.partners-logo {
+
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.inner-cont {
+
+  width: 70%;
+  height: 200px;
+  background-color: peru;
+  row-gap: 30px;
+  
+
+}
+
+.inner-cont img {
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
